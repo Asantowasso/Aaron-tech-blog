@@ -4,9 +4,11 @@
   <p>{{description}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
   <p>
-    <span for="img" aria-label="money">💲</span>
-    
+    {{!-- <span for="img" aria-label="money">💲</span> --}}
+    <div class="form-group">
+      <textarea class="form-input" id="user-comment" name="user-comment"></textarea>
+    </div>
   <p>
-    <button class="btn btn-primary">Fund this Project!</button>
+    <button class="btn btn-primary">Add your comment</button>
   </p>
 </div>
