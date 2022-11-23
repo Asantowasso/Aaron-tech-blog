@@ -13,7 +13,7 @@ Comment.init(
       },
 
       text : {
-        type: DataTypes.String
+        type: DataTypes.STRING
       },
 
       user_id: {

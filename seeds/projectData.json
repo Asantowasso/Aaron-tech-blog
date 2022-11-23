@@ -2,16 +2,16 @@
   {
     "name": "The utility of writing tests for Javascript",
     "description": "When is it appropriate to write a Javascript test? How do you find a balance to ensuring the maximum quality fo your application and putting it in the hands of the public.",
-    "needed_funding": 5000
+    "user_id": 1
   },
   {
     "name": "Learning a new coding language",
     "description": "The process of becoming comfortable with a new coding language is a daunting task for anyone. Here are ways to integrate that process into your everyday work.",
-    "needed_funding": 10000
+    "user_id": 2
   },
   {
     "name": "Explaining what you do",
     "description": "The general public are inundated with information about programming and technology. Here are ways you can describe what you do to those outside of the industry.",
-    "needed_funding": 800
-  }
+    "user_id": 3
+    }
 ]
