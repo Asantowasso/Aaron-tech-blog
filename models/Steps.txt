@@ -1,5 +1,12 @@
-1. When I first visit the site I see existing blog posts, a link for the homepage and dashboard and an option to log in.
+1. When I first visit the site I see existing blog posts, a link for the homepage and dashboard and an option to log in. (x)
 
 2. Links other than the homepage prompt me to login(x)
 
-3. When I am logged in I see links for the homepage, dashboard and option to logout
+3. When I am logged in I see links for the homepage, dashboard and option to logout (x)
+
+4. When I click on other links I am prompted to login or sign up (x)
+
+5. When I sign up my credentials are saved to the site (x)
+
+6. 
+

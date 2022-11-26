@@ -21,6 +21,15 @@ const seedDatabase = async () => {
     console.log(err);
   }
 
+ process.exit(0);
+};
+
+seedDatabase();
+
+
+
+
+
   // for (const project of projectData) {
   //   await Project.create({
   //     ...project,
@@ -35,7 +44,4 @@ const seedDatabase = async () => {
   //   })
   // }
 
-  process.exit(0);
-};
-
-seedDatabase();
+ 
