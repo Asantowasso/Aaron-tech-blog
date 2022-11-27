@@ -15,6 +15,15 @@ router.post('/', withAuth, async (req, res) => {
   }
 });
 
+router.put('/', withAuth, async (req,res) => {
+  console.log("put request")
+  try{
+    const projectData = 
+  }
+}
+
+)
+
 router.delete('/:id', withAuth, async (req, res) => {
   try {
     const projectData = await Project.destroy({

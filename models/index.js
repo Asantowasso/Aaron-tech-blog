@@ -21,4 +21,13 @@ Comment.belongsTo(User, {
   foreignKey: 'user_id'
 })
 
+Project.hasMany(Comment, {
+  foreignKey: "blog_id",
+  onDelete: 'CASCADE'
+})
+
+Comment.belongsTo(Project, {
+  foreignKey: "blog_id"
+})
+
 module.exports = { User, Project, Comment };
