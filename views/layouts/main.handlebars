@@ -12,17 +12,18 @@
 <body>
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="money"></span>
-        <a href="/">Writing on Tech</a>
-      </h1>
+      <h1>Writing on Tech</h1>
+      
+        
+      
       <nav>
         <!-- Conditionally render login or logout links -->
+        <a href="/">Homepage</a>|
         {{#if logged_in}}
                 <a href="/profile">Dashboard</a> |
         <button class="no-button" id="logout">logout</button>
         {{else}}
-        <a href="/profile">Dashboard</a> |
+        <a href="/profile" >Dashboard</a> |
         <a href="/login">login</a>
         {{/if}}
       </nav>

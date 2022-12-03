@@ -1,6 +1,6 @@
 <div class="text-center">
   <h2>{{name}}</h2>
-  <p>{{{get_emoji}}}</p>
+  
   <p>{{description}}</p>
   <p>Written by {{user.name}} on {{format_date date_created}}</p>
   {{#each comments as |comment|}}
@@ -11,7 +11,6 @@
     </div>
     {{/each}}
   <p>
-    {{!-- <span for="img" aria-label="money">💲</span> --}}
     <div class="form-group">
       <form class="form new-comment-form" id="user-comment" name="user-comment">
       <input id="comment" name="comment-text" class="form-input"/>
