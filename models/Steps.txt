@@ -8,5 +8,13 @@
 
 5. When I sign up my credentials are saved to the site (x)
 
-6. 
+6. These credentials are saved (x)
+
+7. This shows me the navigation links for the homepage, dashboard and option to logout (x)
+
+8. Clicking homepage takes me to a page with all blog posts (x)
+
+9. 
+
+
 
