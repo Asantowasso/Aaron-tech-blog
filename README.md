@@ -1,6 +1,6 @@
 # Aaron-tech-blog
 
-## Table of Contents
+
 
 
 ## Description
