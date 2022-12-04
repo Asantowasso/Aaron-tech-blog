@@ -15,14 +15,21 @@ router.post('/', withAuth, async (req, res) => {
   }
 });
 
-// router.put('/', withAuth, async (req,res) => {
-//   console.log("put request")
-//   try{
-//     const projectData = 
-//   }
-// }
-
-// )
+router.put('/', withAuth, async (req,res) => {
+  console.log("put request")
+  try{
+    const projectData = await Project.update(
+      {name: req.body.name},
+      {description: req.body.description},
+      {
+        where: {id: req.params.id}
+      }
+    );
+    res.status(200).json(projectData);
+  } catch (err) {
+    res.status(400).json(err)
+  }
+});
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {

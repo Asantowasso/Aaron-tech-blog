@@ -14,7 +14,15 @@
 
 8. Clicking homepage takes me to a page with all blog posts (x)
 
-9. 
+9. When I select a blog post I can write and save a comment. (x)
+
+10. The dashboard shows me post that I have already written (x).
+
+11. The dashboard allows me to add a new post with a title and body of text. (x)
+
+12. My new post is saved to my dashboard (x)
+
+13.
 
 
 
