@@ -28,6 +28,9 @@ const editButtonHandler = async (event) => {
 
     const response = await fetch(`/api/projects/${id}`, {
       method: 'PUT',
+      
+
+     
     });
 
     if (response.ok) {

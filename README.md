@@ -1,4 +1,15 @@
 # Aaron-tech-blog
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Table of Contents
+
+- [Description](#description)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Credits](#credits)
+- [Repository](#repository)
+- [Deployed Application](#deployed-application)
+- [License](#license)
+
 
 
 
@@ -10,6 +21,11 @@ The tech blog is a destination for users to create blog posts to share informati
 ## Usage
 
 The application is used to write blog posts and share them with other developers or the general public. The posts should include information about how to use programming languages and how to better learn and communicate about those topics. Users can then share their thoughts with comments. If the author wants to amend their post they can do this with an update.
+
+## Images
+<img src= "assets/Techblog-home.jpg">
+<img src= "assets/Techblog-dash.jpg">
+<img src= "assets/Techblog-comment.jpg">
 
 ## Installation
 
